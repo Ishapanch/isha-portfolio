@@ -1,0 +1,79 @@
+.contact-sec .no-list{
+    list-style: none;
+}
+
+.contact-sec .no-list.details-my {
+    list-style: none;
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contact-sec label{
+    display: block;
+    padding: 10px 0;
+}
+.contact-sec .form-grp{
+    background-color: #eee;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 0;
+    font-size: 15px;
+    padding: 10px;
+    color: #777;
+
+}
+.contact-sec .form-grp:focus{
+    box-shadow: none;
+}
+.contact-sec .form-grp option{
+    background-color: #1d1d1d;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 0;
+    font-size: 15px;
+    height: 44px;
+    padding: 20px 14px;
+    color: #777;
+
+}
+/* .contact-sec .form-radio-btn{
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+    color: #777;
+} */
+.contact-sec .form-radio-btn {
+    font-size: 15px;
+    height: auto;
+    padding: 0px 13px;
+    color: #777;
+    display: inline-flex;
+    margin: 0 !important;
+}
+.contact-sec .form-radio-btn input {
+    margin-right: 10px;
+}
+.contact-sec .form-radio-btn label {
+    padding: 0;
+}
+.contact-sec .radio-btn{
+    display: flex;
+}
+.contact-sec .form-label{
+    color: #009e66;
+    font-weight: 600;
+}
+
+button.btn-green {
+    background: #009e66;
+    padding: 15px 30px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 50px;
+    transition: all 0.2s cubic-bezier(0.25, 0.1, 0.85, 0.65);
+    cursor: pointer;
+    border: 0;
+}
+.padding-50{
+    padding:  50px;
+}
